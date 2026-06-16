@@ -1,0 +1,20 @@
+﻿Analyzing lib...
+
+  error - screens\home_screen.dart:655:28 - The argument type 'PageController' can't be assigned to the parameter type 'Animation<double>'.  - argument_type_not_assignable
+warning - screens\home_screen.dart:12:8 - Unused import: '../utils/app_strings.dart'. Try removing the import directive. - unused_import
+   info - screens\favorites_screen.dart:9:9 - Parameter 'key' could be a super parameter. Trying converting 'key' to a super parameter. - use_super_parameters
+   info - screens\favorites_screen.dart:214:47 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - screens\favorites_screen.dart:370:13 - The 'child' argument should be last in widget constructor invocations. Try moving the argument to the end of the argument list. - sort_child_properties_last
+   info - screens\home_screen.dart:17:9 - Parameter 'key' could be a super parameter. Trying converting 'key' to a super parameter. - use_super_parameters
+   info - screens\home_screen.dart:174:9 - Parameter 'key' could be a super parameter. Trying converting 'key' to a super parameter. - use_super_parameters
+   info - screens\home_screen.dart:915:9 - Parameter 'key' could be a super parameter. Trying converting 'key' to a super parameter. - use_super_parameters
+   info - screens\home_screen.dart:930:9 - Parameter 'key' could be a super parameter. Trying converting 'key' to a super parameter. - use_super_parameters
+   info - screens\movie_detail_screen.dart:13:9 - Parameter 'key' could be a super parameter. Trying converting 'key' to a super parameter. - use_super_parameters
+   info - screens\search_screen.dart:9:9 - Parameter 'key' could be a super parameter. Trying converting 'key' to a super parameter. - use_super_parameters
+   info - screens\tv_detail_screen.dart:13:9 - Parameter 'key' could be a super parameter. Trying converting 'key' to a super parameter. - use_super_parameters
+   info - services\tmdb_api.dart:30:11 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - widgets\horizontal_list.dart:9:9 - Parameter 'key' could be a super parameter. Trying converting 'key' to a super parameter. - use_super_parameters
+   info - widgets\movie_card.dart:14:9 - Parameter 'key' could be a super parameter. Trying converting 'key' to a super parameter. - use_super_parameters
+   info - widgets\tv_card.dart:14:9 - Parameter 'key' could be a super parameter. Trying converting 'key' to a super parameter. - use_super_parameters
+
+16 issues found.

@@ -217,7 +217,7 @@ class _SearchScreenState extends State<SearchScreen> {
                     context: context,
                     builder: (context) => AlertDialog(
                       title: const Text('Clear History'),
-                      content: const Text('Are you sure you want to clear all search history?'),
+                      content: const Text('Are you sure you want to clear all search history??'),
                       actions: [
                         TextButton(
                           onPressed: () => Navigator.pop(context),

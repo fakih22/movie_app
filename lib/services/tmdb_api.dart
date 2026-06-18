@@ -55,7 +55,7 @@ class TmdbApi {
       );
       return MovieResponse.fromJson(response.data);
     } catch (e) {
-      throw Exception('Failed to load popular movies: $e');
+      throw Exception('Failed to load popular movie: $e');
     }
   }
 

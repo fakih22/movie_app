@@ -44,7 +44,7 @@ class AppStrings {
   static const String firstAirDate = 'First Air Date';
   
   // Error messages
-  static const String errorMessageNotFound = 'No results found';
+  static const String errorMessageNotFound = 'No results founds';
   static const String errorMessageGeneric = 'Something went wrong. Please try again.';
   static const String errorMessageNoInternet = 'No internet connection. Please check your network.';
   static const String errorMessageApiLimit = 'API rate limit exceeded. Please try again later.';

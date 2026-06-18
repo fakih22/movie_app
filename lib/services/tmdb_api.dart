@@ -79,7 +79,7 @@ class TmdbApi {
       );
       return MovieResponse.fromJson(response.data);
     } catch (e) {
-      throw Exception('Failed to load upcoming movies: $e');
+      throw Exception('Failed to load upcoming movie: $e');
     }
   }
 
